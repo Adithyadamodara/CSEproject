@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.div1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url("event1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.8%;
+    position: relative;
+}
+.div2 {
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    margin-left: 30px;
+}
+.div2 h1 {
+    font-size: 120px;
+    font-weight: 160px; 
+    margin-left: -10px;
+}
+.div2 h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+.div2 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.div2 .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-top: 30px;
+}
+.div2 a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+.social {
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social img {
+    width: 50px;
+    display: block;
+    margin: 35px 15px;
+}
+/* second page*/
+.div21 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,35,100,0.7),transparent),url("event2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.8%;
+    position: relative;
+    color: white;
+}
+.div22 { 
+    color: white;
+    position: absolute;
+    top: 10%;
+    margin-left: 30px;
+}
+.div22 h1 {
+    font-size: 50px;
+    font-weight: 150px;
+    margin-left: -20px;
+}
+.div22 p {
+    font-size: 20px;
+    font-weight: 150px; 
+    margin-left: -20px;
+}
+.div22 .ppr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.div22 a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+
+/* third page*/
+.div3 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),transparent),url("event3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.8%;
+    position: relative;
+    color: white;    
+}
+.div31 {
+    color: white;
+    position: absolute;
+    top: 10%;
+    margin-left: 30px;
+}
+.div31 h1{
+    margin-left: 270px;
+    margin-top: 30px;
+    font-size: 80px;
+    font-weight: 160px;
+}
+.div31 h3 {
+    font-size: 18px;
+    font-weight: 100px;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+.div31 h2 {
+    font-size: 70px;
+    font-weight: 160px;
+    margin-left: 300px;
+    margin-top: 30px;
+    
+}
+
+.div32 img {
+    width: 30px;
+    height: 30px;
+    margin-top: 715px;
+    margin-left: 1385px;
+}
+.div32 a {
+    color: white;
+}
+.div32 p {
+    font-size: 25px;
+    font-weight: 500px;
+    margin-left: 1420px;
+    margin-top: -31px;
+}
